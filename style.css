@@ -1,0 +1,107 @@
+body {
+	background-color: rgb(50, 50, 50);
+    color: rgb(255, 0, 150);
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: normal;
+    font-weight: lighter;
+}
+h1{
+color: rgb(50, 0, 250);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 1px;
+}
+
+h2, h3 {
+	color: rgb(50, 0, 250);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+a {
+	color: rgb(250, 0, 0);
+	text-decoration: none;
+}
+
+a:hover{
+	color: rgb(200, 0, 250);
+	text-decoration: none;
+	font-weight: bold
+}
+
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px){
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px){
+	.container {
+		width: 400px;
+	}
+}
+
+.card-dark {
+	background-color: rgb(30,30,30);
+	padding: 25px;
+	box-shadow: 0px 0px 30px rgba(100, 0, 250, 1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.card-pink {
+	background-color: rgb(30,30,30);
+	padding: 25px;
+	box-shadow: 0px 0px 30px rgba(255, 0, 100, 1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-special{
+	border-radius: 12%;
+}
+
+.btn-blue{
+	background-color: rgb(50, 50, 50);
+	color: rgb(250, 0, 0);
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover{
+	box-shadow: 0px 0px 30px rgba(255, 0, 200, 1);
+}
+
+.list-horizontal{
+	list-style: none;
+	padding-left: none;
+
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+
+/* Specific design with id */
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+#conclusion h2 {
+	margin-bottom: 40px;
+}
+
